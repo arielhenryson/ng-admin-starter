@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core'
 import { RouterModule } from '@angular/router'
 import { BrowserModule } from '@angular/platform-browser'
-import { MatButtonModule, MatIconModule, MatMenuModule, MatToolbarModule } from '@angular/material'
+import { MatButtonModule, MatIconModule, MatMenuModule, MatSidenavModule, MatToolbarModule } from '@angular/material'
 
 
 import { HeaderComponent } from './header.component'

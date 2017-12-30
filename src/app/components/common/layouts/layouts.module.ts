@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core'
 import { RouterModule } from '@angular/router'
 import { BrowserModule } from '@angular/platform-browser'
+import { MatSidenavModule } from '@angular/material'
 
 
 import { BlankComponent } from './blank.component'
@@ -18,6 +19,7 @@ import { SidebarModule } from '../sidebar/sidebar.module'
     BrowserModule,
     RouterModule,
 
+    MatSidenavModule,
     HeaderModule,
     SidebarModule
   ],

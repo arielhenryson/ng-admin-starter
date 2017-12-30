@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core'
 import { RouterModule } from '@angular/router'
 import { BrowserModule } from '@angular/platform-browser'
-import { MatToolbarModule } from '@angular/material'
+import { MatListModule, MatToolbarModule } from '@angular/material'
 
 
 import { SidebarComponent } from './sidebar.component'
@@ -15,7 +15,8 @@ import { SidebarComponent } from './sidebar.component'
     BrowserModule,
     RouterModule,
 
-    MatToolbarModule
+    MatToolbarModule,
+    MatListModule
   ],
   exports: [
     SidebarComponent

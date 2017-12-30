@@ -1,5 +1,9 @@
-<app-header></app-header>
+<mat-drawer-container autosize fullscreen>
+  <mat-drawer #sidenav [mode]="menuOpenMethod">
+    <app-sidebar></app-sidebar>
+  </mat-drawer>
 
+  <app-header (navToggle)="sidenav.toggle()"></app-header>
 
-<router-outlet></router-outlet>
-
+  <router-outlet></router-outlet>
+</mat-drawer-container>
