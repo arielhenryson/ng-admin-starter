@@ -49,6 +49,11 @@
     }
   ],
   "test": {
+    "codeCoverage": {
+      "exclude": [
+        "**/mocks/**"
+      ]
+    },
     "karma": {
       "config": "./karma.conf.js"
     }

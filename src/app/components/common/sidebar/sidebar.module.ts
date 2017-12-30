@@ -1,22 +1,26 @@
 import { NgModule } from '@angular/core'
 import { RouterModule } from '@angular/router'
 import { BrowserModule } from '@angular/platform-browser'
-import { MatListModule, MatToolbarModule } from '@angular/material'
+import { MatCardModule, MatIconModule, MatListModule, MatToolbarModule } from '@angular/material'
 
 
 import { SidebarComponent } from './sidebar.component'
+import { UserCardComponent } from './userCard/userCard.component'
 
 
 @NgModule({
   declarations: [
-    SidebarComponent
+    SidebarComponent,
+    UserCardComponent
   ],
   imports     : [
     BrowserModule,
     RouterModule,
 
     MatToolbarModule,
-    MatListModule
+    MatListModule,
+    MatIconModule,
+    MatCardModule,
   ],
   exports: [
     SidebarComponent
