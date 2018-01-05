@@ -9,6 +9,7 @@ import { AppComponent } from './app.component'
 import { ROUTES } from './app.routes'
 import { DashboardModule } from './pages/dashboard/dashboard.module'
 import { LayoutsModule } from './components/common/layouts/layouts.module'
+import { FlexLayoutModule } from '@angular/flex-layout'
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { LayoutsModule } from './components/common/layouts/layouts.module'
     BrowserModule,
     FormsModule,
     BrowserAnimationsModule,
+    FlexLayoutModule,
 
 
     // app Modules
