@@ -1,30 +1,47 @@
 import { Component } from '@angular/core'
 
-import { single } from './data'
+import { multi, single } from './data'
 
 @Component({
   selector: 'app-root',
   templateUrl: 'dashboard.component.html',
 })
 export class DashboardComponent {
+  single = single
+  multi = multi
+
   view: any[] = [200, 100]
   data: any[]
+
+  // options
+  showXAxis = true
+  showYAxis = true
+  gradient = false
+  showLegend = true
+  showXAxisLabel = true
+  xAxisLabel = 'Country'
+  showYAxisLabel = true
+  yAxisLabel = 'Population'
 
   constructor() {
     this.data = single
   }
 
+  colorScheme = {
+    domain: ['#42A5F5', '#66BB6A', '#FFCA28', '#FF7043']
+  }
+
   colorScheme1 = {
-    domain: ['#5AA454', '#a13c8e', '#C7B42C']
+    domain: ['#42A5F5', '#64B5F6']
   }
 
   colorScheme2 = {
-    domain: ['#A10A28', '#23c724']
+    domain: ['#66BB6A', '#23c724']
   }
 
 
   colorScheme3 = {
-    domain: ['#4254c7']
+    domain: ['#FFCA28']
   }
 
   onSelect(event) {

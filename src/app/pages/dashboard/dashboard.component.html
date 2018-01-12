@@ -1,15 +1,13 @@
-<div class="container"
-     fxFlex
+<div class="container" style="margin-top: 20px"
      fxLayout
-     fxLayout.xs="column"
+     fxLayout.sm="column"
      fxLayoutAlign="center"
      fxLayoutGap="10px"
      fxLayoutGap.xs="0">
 
-
   <div class="item item-1" fxFlex>
     <mat-card class="example-card">
-      <mat-card-content fxFlex>
+      <mat-card-content fxFlex fxLayoutAlign="center">
         <ngx-charts-linear-gauge
           [view]="view"
           [scheme]="colorScheme1"
@@ -30,7 +28,7 @@
 
   <div class="item item-1" fxFlex>
     <mat-card class="example-card">
-      <mat-card-content fxFlex>
+      <mat-card-content fxFlex fxLayoutAlign="center">
         <ngx-charts-linear-gauge
           [view]="view"
           [scheme]="colorScheme2"
@@ -50,7 +48,7 @@
 
   <div class="item item-1" fxFlex>
     <mat-card class="example-card">
-      <mat-card-content fxFlex>
+      <mat-card-content fxFlex fxLayoutAlign="center">
         <ngx-charts-linear-gauge
           [view]="view"
           [scheme]="colorScheme3"
@@ -68,3 +66,75 @@
 
 
 </div>
+
+
+
+
+<br>
+<br>
+
+
+
+
+
+
+
+<div class="container"
+     fxLayout
+     fxLayout.sm="column"
+     fxLayoutAlign="center"
+     fxLayoutGap="10px"
+     fxLayoutGap.xs="0">
+
+  <div class="item item-1" fxFlex>
+    <mat-card class="example-card">
+      <mat-card-content fxFlex fxLayoutAlign="center">
+        <ngx-charts-bar-vertical
+          [view]="[400, 400]"
+          [scheme]="colorScheme"
+          [results]="single"
+          [gradient]="gradient"
+          [xAxis]="showXAxis"
+          [yAxis]="showYAxis"
+          [legend]="false"
+          [showXAxisLabel]="showXAxisLabel"
+          [showYAxisLabel]="showYAxisLabel"
+          [xAxisLabel]="xAxisLabel"
+          [yAxisLabel]="yAxisLabel"
+          (select)="onSelect($event)">
+        </ngx-charts-bar-vertical>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+
+  <br>
+
+
+  <div class="item item-1" fxFlex>
+    <mat-card class="example-card">
+      <mat-card-content fxFlex fxLayoutAlign="center">
+        <ngx-charts-bar-vertical
+          [view]="[400, 400]"
+          [scheme]="colorScheme"
+          [results]="single"
+          [gradient]="gradient"
+          [xAxis]="showXAxis"
+          [yAxis]="showYAxis"
+          [legend]="false"
+          [showXAxisLabel]="showXAxisLabel"
+          [showYAxisLabel]="showYAxisLabel"
+          [xAxisLabel]="xAxisLabel"
+          [yAxisLabel]="yAxisLabel"
+          (select)="onSelect($event)">
+        </ngx-charts-bar-vertical>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+
+
+</div>
+
+
+

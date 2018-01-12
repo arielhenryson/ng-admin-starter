@@ -1,15 +1,15 @@
 export const single = [
   {
     'name': 'Germany',
-    'value': 8940000
+    'value': 8940
   },
   {
     'name': 'USA',
-    'value': 5000000
+    'value': 5000
   },
   {
     'name': 'France',
-    'value': 7200000
+    'value': 7200
   }
 ]
 
@@ -19,11 +19,11 @@ export const multi = [
     'series': [
       {
         'name': '2010',
-        'value': 7300000
+        'value': 7300
       },
       {
         'name': '2011',
-        'value': 8940000
+        'value': 8940
       }
     ]
   },
@@ -33,11 +33,11 @@ export const multi = [
     'series': [
       {
         'name': '2010',
-        'value': 7870000
+        'value': 7870
       },
       {
         'name': '2011',
-        'value': 8270000
+        'value': 8270
       }
     ]
   },
@@ -47,11 +47,11 @@ export const multi = [
     'series': [
       {
         'name': '2010',
-        'value': 5000002
+        'value': 5000
       },
       {
         'name': '2011',
-        'value': 5800000
+        'value': 5800
       }
     ]
   }
