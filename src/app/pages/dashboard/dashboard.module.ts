@@ -4,6 +4,8 @@ import { BrowserModule } from '@angular/platform-browser'
 
 
 import { DashboardComponent } from './dashboard.component'
+import { MatCardModule } from '@angular/material'
+import { FlexLayoutModule } from '@angular/flex-layout'
 
 
 @NgModule({
@@ -11,8 +13,10 @@ import { DashboardComponent } from './dashboard.component'
     DashboardComponent
   ],
   imports: [
+    MatCardModule,
+    FlexLayoutModule,
     BrowserModule,
-    RouterModule
+    RouterModule,
   ],
   exports: []
 })
