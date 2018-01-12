@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core'
 import { RouterModule } from '@angular/router'
 import { BrowserModule } from '@angular/platform-browser'
+import { NgxChartsModule } from '@swimlane/ngx-charts'
 
 
 import { DashboardComponent } from './dashboard.component'
@@ -17,6 +18,7 @@ import { FlexLayoutModule } from '@angular/flex-layout'
     FlexLayoutModule,
     BrowserModule,
     RouterModule,
+    NgxChartsModule,
   ],
   exports: []
 })

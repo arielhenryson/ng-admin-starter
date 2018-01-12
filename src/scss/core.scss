@@ -6,6 +6,11 @@ body {
   margin: 10px 20px;
 }
 
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .app-spacer {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
