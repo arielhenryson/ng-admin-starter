@@ -1,6 +1,7 @@
 <div class="container" style="margin-top: 20px"
      fxLayout
      fxLayout.sm="column"
+     fxLayout.xs="column"
      fxLayoutAlign="center"
      fxLayoutGap="10px"
      fxLayoutGap.xs="0">
@@ -63,34 +64,24 @@
     </mat-card>
   </div>
 
-
-
 </div>
 
-
-
-
 <br>
 <br>
-
-
-
-
-
 
 
 <div class="container"
      fxLayout
      fxLayout.sm="column"
+     fxLayout.xs="column"
      fxLayoutAlign="center"
      fxLayoutGap="10px"
      fxLayoutGap.xs="0">
 
-  <div class="item item-1" fxFlex>
+  <div class="item item-1" fxFlex="50%">
     <mat-card class="example-card">
-      <mat-card-content fxFlex fxLayoutAlign="center">
+      <mat-card-content style="overflow: hidden">
         <ngx-charts-bar-vertical
-          [view]="[400, 400]"
           [scheme]="colorScheme"
           [results]="single"
           [gradient]="gradient"
@@ -111,11 +102,10 @@
   <br>
 
 
-  <div class="item item-1" fxFlex>
+  <div class="item item-1" fxFlex="50%">
     <mat-card class="example-card">
-      <mat-card-content fxFlex fxLayoutAlign="center">
+      <mat-card-content style="overflow: hidden">
         <ngx-charts-bar-vertical
-          [view]="[400, 400]"
           [scheme]="colorScheme"
           [results]="single"
           [gradient]="gradient"
