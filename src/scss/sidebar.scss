@@ -1,0 +1,35 @@
+.app-side-nav {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    border-bottom: 1px solid;
+    margin: 0;
+    padding: 0;
+    border-color: rgba(0,0,0,.06);
+    color: rgba(0,0,0,.54);
+
+
+    a {
+      color: rgba(0,0,0,.54);
+      box-sizing: border-box;
+      display: block;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 47px;
+      text-decoration: none;
+      transition: all .3s;
+      padding: 0 16px;
+      position: relative;
+
+
+      &:hover {
+        background: #fafafa;
+        color: #3f51b5;
+      }
+    }
+  }
+}
