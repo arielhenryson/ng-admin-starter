@@ -21,6 +21,7 @@ import { UserCardComponent } from './userCard/userCard.component'
     MatListModule,
     MatIconModule,
     MatCardModule,
+    MatListModule
   ],
   exports: [
     SidebarComponent

@@ -3,7 +3,6 @@ import { Component } from '@angular/core'
 import { multi, single } from './data'
 
 @Component({
-  selector: 'app-root',
   templateUrl: 'dashboard.component.html',
 })
 export class DashboardComponent {

@@ -10,6 +10,7 @@ import { ROUTES } from './app.routes'
 import { DashboardModule } from './pages/dashboard/dashboard.module'
 import { LayoutsModule } from './components/common/layouts/layouts.module'
 import { FlexLayoutModule } from '@angular/flex-layout'
+import { TableModule } from './pages/table/table.module'
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { FlexLayoutModule } from '@angular/flex-layout'
 
     // app Modules
     LayoutsModule,
-    DashboardModule
+    DashboardModule,
+    TableModule
   ],
   providers: [],
   bootstrap: [ AppComponent ]

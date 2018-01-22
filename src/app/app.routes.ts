@@ -2,6 +2,7 @@ import { Routes } from '@angular/router'
 import { BasicComponent } from './components/common/layouts/basic.component'
 import { BlankComponent } from './components/common/layouts/blank.component'
 import { DashboardComponent } from './pages/dashboard/dashboard.component'
+import { TableComponent } from './pages/table/table.component'
 
 
 export const ROUTES: Routes = [
@@ -19,7 +20,7 @@ export const ROUTES: Routes = [
     // canActivate: [AuthGuard],
     children: [
       { path: 'dashboard', component: DashboardComponent },
-      { path: 'table', component: DashboardComponent },
+      { path: 'table', component: TableComponent },
     ]
   },
   {
